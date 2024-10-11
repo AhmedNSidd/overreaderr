@@ -14,6 +14,10 @@ export async function GET(request: Request) {
   const maxResults = params.get('maxResults') || 10;
   const orderBy = params.get('orderBy') || 'relevance';
 
+  if (!term) {
+    return new Response('Missing query parameter "q"', { status: 400 });
+  }
+
   let results;
 
   try {
