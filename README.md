@@ -32,7 +32,13 @@ Make sure you have the following installed:
    cd your-repo-name
    ```
 
-2. Install the dependencies:
+2. Use the correct Node.js version with [nvm](https://github.com/nvm-sh/nvm)
+
+   ```bash
+   nvm use
+   ```
+
+3. Install the dependencies:
 
    ```bash
    npm ci
