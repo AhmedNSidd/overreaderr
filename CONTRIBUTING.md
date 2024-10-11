@@ -1,6 +1,6 @@
-# Contributing to Overreader
+# Contributing to Overreaderr
 
-We appreciate your interest in contributing to Overreader! Here are some guidelines to help you get started.
+We appreciate your interest in contributing to Overreaderr! Here are some guidelines to help you get started.
 
 ## Issues
 
