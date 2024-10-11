@@ -62,6 +62,8 @@ To format your code, run:
 npm run prettier:write
 ```
 
+See https://mantine.dev/getting-started/#set-up-vs-code for setting up VSCode for Mantine and PostCSS.
+
 ### Stack
 
 This project uses [Next.JS](https://nextjs.org/docs/getting-started) (with [TypeScript](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html) and [Mantine](https://mantine.dev/)).
