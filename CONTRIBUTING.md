@@ -15,6 +15,11 @@ We use a branch naming convention to keep our repository organized. Follow the n
 
 - **main**: The stable branch used for production-ready code.
 
+### Development Branch
+
+- **develop**: The branch used for integrating new features and bug fixes before merging into `main`.
+  - Example: `develop`
+
 ### Feature Branches
 
 - **feature/short-description**: For developing new features.
