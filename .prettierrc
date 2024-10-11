@@ -4,9 +4,10 @@
   "tabWidth": 2,
   "useTabs": false,
   "trailingComma": "es5",
-  "printWidth": 80,
+  "printWidth": 100,
   "bracketSpacing": true,
   "arrowParens": "always",
   "jsxSingleQuote": false,
-  "endOfLine": "auto"
+  "endOfLine": "auto",
+  "plugins": ["prettier-plugin-organize-imports"]
 }

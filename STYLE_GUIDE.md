@@ -6,7 +6,7 @@
 - **Semicolons**: Always use semicolons `;` to end statements.
 - **Quotes**: Use single quotes `' '` for strings, except when using template literals or when a string contains a quote.
   - ✅ Example: `const name = 'Adam';`
-  - ✅ Example: `` const greeting = `Hello, ${name}!`; ``
+  - ✅ Example: ``const greeting = `Hello, ${name}!`;``
 
 ### 2. **Variable and Function Naming**
 
