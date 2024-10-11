@@ -16,7 +16,51 @@ Overreaderr is a self-hosted web app for you & your users to request audiobooks 
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to contribute to Overreaderr.
 
-**<Populate this with the details of how to install & run Overreaderr once it is ready>**
+#### Prerequisites
+
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (We recommend using the LTS version – see `.nvmrc` file for the specific version)
+- [npm](https://www.npmjs.com/) (comes with Node.js) or [yarn](https://yarnpkg.com/)
+
+#### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+   cd your-repo-name
+   ```
+
+2. Install the dependencies:
+
+   ```bash
+   npm ci
+   ```
+
+#### Running the Development Server
+
+To start the development server, run:
+
+```bash
+npm run dev
+```
+
+\*\* TODO dockerize
+
+#### Linting and Formatting
+
+To check for linting errors, run:
+
+```bash
+npm run lint
+```
+
+To format your code, run:
+
+```bash
+npm run prettier:write
+```
 
 ### Stack
 
