@@ -10,7 +10,6 @@ export default function AppShell({ children }: Props) {
       <AppShellHeader>
         <Image src="/logo.svg" alt="Logo" width={64} height={64} />
       </AppShellHeader>
-      da
       <AppShellMain>{children}</AppShellMain>
     </Shell>
   );
