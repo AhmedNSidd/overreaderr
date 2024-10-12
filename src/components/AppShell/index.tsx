@@ -6,7 +6,7 @@ type Props = PropsWithChildren;
 
 export default function AppShell({ children }: Props) {
   return (
-    <Shell header={{ height: 60 }} padding="md">
+    <Shell header={{ height: 64 }} padding="md">
       <AppShellHeader>
         <Image src="/logo.svg" alt="Logo" width={64} height={64} />
       </AppShellHeader>
