@@ -44,6 +44,12 @@ Make sure you have the following installed:
    npm ci
    ```
 
+4. Obtain a Google Books API key from [Google Cloud Console](https://console.cloud.google.com/apis/credentials) and add it to a `.env.local` file in the root of the project:
+
+   ```bash
+   GOOGLE_BOOKS_API_KEY=your-api-key
+   ```
+
 #### Running the Development Server
 
 To start the development server, run:
