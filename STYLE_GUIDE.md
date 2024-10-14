@@ -6,7 +6,7 @@
 - **Semicolons**: Always use semicolons `;` to end statements.
 - **Quotes**: Use single quotes `' '` for strings, except when using template literals or when a string contains a quote.
   - ✅ Example: `const name = 'Adam';`
-  - ✅ Example: `` const greeting = `Hello, ${name}!`; ``
+  - ✅ Example: ``const greeting = `Hello, ${name}!`;``
 
 ### 2. **Variable and Function Naming**
 
@@ -48,7 +48,7 @@
       name: string;
     }
 
-    const user: User = { id: 1, name: "John" };
+    const user: User = { id: 1, name: 'John' };
     ```
 
 - Use `null` instead of `undefined` where possible. Type your variables as `string | null`, for example, to account for possible null values.
@@ -80,7 +80,7 @@
 
   - ✅ Example:
     ```typescript
-    const user = { id: 1, name: "John" };
+    const user = { id: 1, name: 'John' };
     const { id, name } = user;
     ```
 
@@ -100,7 +100,7 @@
     ```typescript
     function getUserName(user: User): string {
       if (!user) {
-        return "Guest";
+        return 'Guest';
       }
       return user.name;
     }
@@ -112,7 +112,7 @@
       if (user) {
         return user.name;
       } else {
-        return "Guest";
+        return 'Guest';
       }
     }
     ```
@@ -127,7 +127,7 @@
         const response = await fetch(apiUrl);
         return await response.json();
       } catch (error) {
-        console.error("Error fetching data:", error);
+        console.error('Error fetching data:', error);
         throw error;
       }
     }
@@ -139,7 +139,7 @@
       return fetch(apiUrl)
         .then((response) => response.json())
         .catch((error) => {
-          console.error("Error fetching data:", error);
+          console.error('Error fetching data:', error);
           throw error;
         });
     }
@@ -152,7 +152,7 @@
 - Prefer **ternary operators** for simple conditional assignments.
   - ✅ Example:
     ```typescript
-    const status = isLoggedIn ? "Logged In" : "Guest";
+    const status = isLoggedIn ? 'Logged In' : 'Guest';
     ```
 
 ### 7. **Error Handling**
@@ -164,7 +164,7 @@
     try {
       await fetchData();
     } catch (error) {
-      console.error("Error fetching data:", error);
+      console.error('Error fetching data:', error);
     }
     ```
 
@@ -193,7 +193,7 @@
 
 - Use Prettier for consistent code formatting. It is recommended to set up Prettier in your editor to format code on save. [(VS Code)](https://www.digitalocean.com/community/tutorials/how-to-format-code-with-prettier-in-visual-studio-code)
 
-  - ✅ Example: Run `npm run prettier` to format your code.
+  - ✅ Example: Run `npm run prettier:write` to format your code.
 
 ---
 
