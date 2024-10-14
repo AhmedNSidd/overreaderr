@@ -2,11 +2,13 @@
 
 # environment
 .env
+.env.local
 .env.development
 .env.test
 .env.production
 
 # dependencies
+node_modules
 /.pnp
 .pnp.js
 .yarn/install-state.gz
@@ -15,8 +17,11 @@
 /coverage
 
 # next.js
+.next
+out
 
 # production
+build
 
 # misc
 .DS_Store
